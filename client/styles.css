@@ -1,0 +1,24 @@
+.msg-box,
+#message-box-header {
+  display: flex;
+  justify-content: space-between;
+}
+.msg-box {
+  height: 5vh;
+}
+
+.name {
+  width: 15vw;
+  background-color: red;
+}
+
+.message {
+  width: 50vw;
+  background-color: green;
+}
+
+.time {
+  width: 20vw;
+  background-color: orange;
+  overflow: scroll;
+}
